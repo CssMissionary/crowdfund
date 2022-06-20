@@ -1,0 +1,262 @@
+header {
+  background: url("./images/image-hero-desktop.jpg") no-repeat center
+    center/cover;
+  height: 400px;
+  
+}
+header nav ul li{
+    display: block;
+
+}
+header nav ul{
+    position: relative;
+    top: 0;
+    width: auto;
+    background: none;
+    margin: 0;
+    border: 0;
+    display: flex;
+}
+header ul li{
+    padding: 0;
+    border: 0;
+}
+header ul li a{
+    padding-right: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+}
+header ul li a:hover{
+    color: rgba(255, 255, 255, 0.549);
+}
+header nav label{
+    display: none;
+}
+.monitor-riser{
+    width: 550px;
+    left: 110px;
+    height: 250px;
+}
+.monitor-riser strong{
+    display: inline-flex;
+}
+.funding-container .funding{
+    height: 250px;
+    width: 550px;
+}
+.sum-up{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.money-raised{
+    border: 0;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.302);
+    margin-right: 40px;
+}
+.backers{
+    border: 0;
+    padding-right: 30px;
+    padding-bottom: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.302);
+    margin-right: 50px;
+}
+.days{
+    border: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+}
+.measure{
+    width: 450px;
+}
+.measure:before{
+    width: 350px;
+    right: 100px;
+}
+.about{
+    width: 550px;
+    padding-top: 1220px;
+    height: 1100px;
+}
+.bamboo{
+    width: 480px;
+    height: 240px;
+}
+.pledge-title{
+    display: flex;
+    align-items: center;
+    
+}
+.bamboo .g-prgph{
+    margin: 0;
+    margin-left: 150px;
+}
+.bamboo .number{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.bamboo button{
+    margin: 0;
+    padding: 0;
+    margin-left: 190px;
+    width: 160px;
+}
+.second-section{
+    width: 480px;
+    height: 240px;
+}
+
+.second-section .g-prgph{
+    margin: 0;
+    margin-left: 110px;
+}
+.second-section .number{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.second-section button{
+    margin: 0;
+    padding: 0;
+    margin-left: 190px;
+    width: 160px;
+}
+.third-section{
+    width: 480px;
+    height: 240px;
+}
+.third-section .g-prgph{
+    margin: 0;
+    margin-left: 50px;
+}
+.third-section .number{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.third-section button{
+    margin: 0;
+    padding: 0;
+    margin-left: 190px;
+    width: 160px;
+}
+.modal-container .modal{
+    width: 650px;
+    height: 1050px;
+}
+.modal .unrewarded{
+    width: 550px;
+    height: 180px;
+}
+.unrewarded-container,
+.unrewarded2-container,
+.unrewarded3-container,
+.unrewarded4-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal .unrewarded2,
+.modal .unrewarded3,
+.modal .unrewarded4{
+    width: 550px;
+    height: 200px;
+}
+.unrewarded2 .heading-3 .heading-alt,
+.unrewarded3 .heading-4 .heading-alt,
+.unrewarded4 .heading-5 .heading-alt{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.unrewarded2 .heading-3 .heading-alt h5,
+.unrewarded3 .heading-4 .heading-alt h5,
+.unrewarded4 .heading-5 .heading-alt h5{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+/* .unrewarded2 .number{
+    top: 390px;
+    right: 0px;
+    position: absolute;
+} */
+.unrewarded3 .number{
+    top: 620px;
+    right: 0px;
+    position: absolute;
+}
+.unrewarded4 .number{
+    top: 850px;
+    right: 0px;
+    position: absolute;
+}
+.unrewarded4 a button{
+    display: none;
+}
+
+.unrewarded2-container .unrewarded2 .number{
+    display: none;
+}
+.unrewarded3-container .unrewarded3 .number{
+    display: none;
+}
+.unrewarded4-container .unrewarded4 .number{
+    display: none;
+}
+.unrewarded2-container .unrewarded2 .number-clear{
+    display: flex;
+    margin-left: 120px;
+}
+.unrewarded3-container .unrewarded3 .number-clear{
+    display: flex;
+    margin-left: 80px;
+}
+.unrewarded4-container .unrewarded4 .number-clear{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.unrewarded2-container .unrewarded2 .pledge-counter h4{
+   display: none;
+}
+.unrewarded2-container .unrewarded2 .pledge-counter .pledge-button h4{
+   display: block;
+}
+.unrewarded2-container .unrewarded2 .pledge-counter .pledge-button{
+    margin-top: 20px;
+    align-items: center;
+}
+.pledge-amount-container{
+    margin-left: 140px;
+}
+.modal-container .modals-modal-container .modal #checkbox2:checked ~ .unrewarded2-container .unrewarded2 {
+    height: 280px;
+}
+
+
+.unrewarded3-container .unrewarded3 .pledge-counter h4{
+   display: none;
+}
+.unrewarded3-container .unrewarded3 .pledge-counter .pledge-button h4{
+   display: block;
+}
+.unrewarded3-container .unrewarded3 .pledge-counter .pledge-button{
+    margin-top: 20px;
+    align-items: center;
+}
+.modal-container .modals-modal-container .modal #checkbox3:checked ~ .unrewarded3-container .unrewarded3 {
+    height: 280px;
+}
+
+.modal-container .modal-Two{
+    width: 500px;
+}
