@@ -16,6 +16,7 @@ header nav ul{
     margin: 0;
     border: 0;
     display: flex;
+    animation: nav-ul 500ms ease-in;
 }
 header ul li{
     padding: 0;
@@ -36,7 +37,6 @@ header nav label{
 }
 .monitor-riser{
     width: 550px;
-    left: 110px;
     height: 250px;
 }
 .monitor-riser strong{
@@ -259,4 +259,15 @@ header nav label{
 
 .modal-container .modal-Two{
     width: 500px;
+}
+@keyframes nav-ul{
+    0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateX(0);
+            opacity: 100%;
+        }
 }

@@ -18,6 +18,7 @@ header nav {
 }
 header nav .logo {
   padding: 1rem;
+  animation: logo 500ms;
 }
 #checkbox {
   display: none;
@@ -26,6 +27,7 @@ header nav label {
   position: relative;
   cursor: pointer;
   padding: 20px;
+  animation: hamburger 700ms;
 }
 header nav label span {
   background-color: white;
@@ -89,6 +91,7 @@ header ul li a {
   align-items: center;
   justify-content: center;
   position: relative;
+  animation: monitor-riser 1000ms ease-in;
 }
 .monitor-riser {
   position: absolute;
@@ -155,6 +158,7 @@ header ul li a {
   align-items: center;
   justify-content: center;
   margin-top: 250px;
+  animation: funding-container 500ms ease-in;
 }
 .funding {
   display: flex;
@@ -223,6 +227,7 @@ header ul li a {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  animation: about-container 1s ease-in;
 }
 .about {
   display: flex;
@@ -740,4 +745,46 @@ header ul li a {
 .unrewarded2-container .unrewarded2 .pledge-counter .pledge-button h4,
 .unrewarded3-container .unrewarded3 .pledge-counter .pledge-button h4{
    display: none;
+}
+
+@keyframes logo{
+  0%{
+     transform: translateX(-100%);
+  }
+  100%{
+     transform: translateX(0);
+  }
+}
+@keyframes hamburger{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes monitor-riser{
+  0%{
+    margin-top: -100px;
+  }
+  100%{
+    margin-top: 0;
+  }
+}
+@keyframes funding-container{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes about-container{
+  0%{
+    transform: translateX(100%);
+    
+  }
+  100%{
+    transform: translateX(0);
+  }
 }
